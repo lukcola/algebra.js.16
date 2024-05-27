@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadatak</title>
+    <script defer src="./javascript.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Welcome</h1>
+    <header>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum aperiam consequatur ipsam provident aliquam eos delectus, dolorum cupiditate fuga expedita quod officiis, earum deleniti, dicta nihil porro odio laborum in.</p>
+        <nav>
+            <li>Nav1</li>
+            <li>Nav2</li>
+            <li>Nav3</li>
+        </nav>
+    </header>
+    
+    <main>
+        <article>
+            <video width="320" height="240" controls>
+                <source src="movie.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+            <audio controls>
+                <source src="horse.ogg" type="audio/ogg">
+                <source src="horse.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </article>
+        <article>
+            <label for="broj1">Broj1</label>
+            <input type="number" id="broj1" name="broj1" placeholder="Unesite broj 1" required>
+            <br>
+
+            <label for="broj2">Broj2</label>
+            <input type="number" id="broj2" name="broj2" placeholder="Unesite broj 2" required>
+            <br>
+
+            <input type="button" value="Koji je veći?" onclick="veciBroj()">
+        </article>
+    </main>
+
+    <footer>
+        ©<p id="godine"></p>
+    </footer>
+</body>
+
+</html>
